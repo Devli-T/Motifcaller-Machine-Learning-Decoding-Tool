@@ -1,0 +1,479 @@
+[DEBUG] Loaded 10000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (with special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 1.9875, Val Loss = 1.9608
+           Token Accuracy = 15.07%, Sequence Accuracy = 0.00%
+Epoch 1 Sample Prediction (token IDs): [10, 7, 7, 7, 7, 10, 10, 7, 10, 10]
+Epoch 1 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 1.8922, Val Loss = 1.8830
+           Token Accuracy = 15.16%, Sequence Accuracy = 0.00%
+Epoch 2 Sample Prediction (token IDs): [10, 10, 10, 10, 10, 10, 6, 10, 6, 6]
+Epoch 2 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 1.8893, Val Loss = 1.8796
+           Token Accuracy = 15.58%, Sequence Accuracy = 0.00%
+Epoch 3 Sample Prediction (token IDs): [10, 10, 8, 10, 10, 6, 10, 10, 10, 10]
+Epoch 3 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 1.8854, Val Loss = 1.8805
+           Token Accuracy = 14.44%, Sequence Accuracy = 0.00%
+Epoch 4 Sample Prediction (token IDs): [10, 6, 6, 10, 6, 6, 6, 7, 10, 10]
+Epoch 4 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 1.8857, Val Loss = 1.8786
+           Token Accuracy = 15.12%, Sequence Accuracy = 0.00%
+Epoch 5 Sample Prediction (token IDs): [9, 10, 10, 7, 10, 10, 7, 10, 10, 10]
+Epoch 5 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 1.8837, Val Loss = 1.8846
+           Token Accuracy = 14.64%, Sequence Accuracy = 0.00%
+Epoch 6 Sample Prediction (token IDs): [6, 6, 7, 6, 7, 6, 7, 6, 7, 7]
+Epoch 6 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 1.8836, Val Loss = 1.8762
+           Token Accuracy = 15.27%, Sequence Accuracy = 0.00%
+Epoch 7 Sample Prediction (token IDs): [10, 10, 10, 10, 6, 6, 7, 10, 6, 7]
+Epoch 7 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 1.8860, Val Loss = 1.8751
+           Token Accuracy = 16.36%, Sequence Accuracy = 0.00%
+Epoch 8 Sample Prediction (token IDs): [10, 10, 10, 10, 6, 3, 9, 10, 8, 8]
+Epoch 8 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 1.8814, Val Loss = 1.8847
+           Token Accuracy = 15.06%, Sequence Accuracy = 0.00%
+Epoch 9 Sample Prediction (token IDs): [10, 10, 10, 10, 10, 8, 10, 10, 10, 10]
+Epoch 9 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 1.8799, Val Loss = 1.8798
+           Token Accuracy = 15.44%, Sequence Accuracy = 0.00%
+Epoch 10 Sample Prediction (token IDs): [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+Epoch 10 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 1.8950, Val Loss = 1.8769
+           Token Accuracy = 15.28%, Sequence Accuracy = 0.00%
+Epoch 11 Sample Prediction (token IDs): [10, 10, 10, 10, 10, 10, 10, 6, 10, 6]
+Epoch 11 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 1.8781, Val Loss = 1.8773
+           Token Accuracy = 15.32%, Sequence Accuracy = 0.00%
+Epoch 12 Sample Prediction (token IDs): [5, 8, 5, 5, 9, 5, 9, 6, 9, 6]
+Epoch 12 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 1.8732, Val Loss = 1.8655
+           Token Accuracy = 16.91%, Sequence Accuracy = 0.00%
+Epoch 13 Sample Prediction (token IDs): [10, 10, 10, 5, 10, 10, 6, 10, 7, 10]
+Epoch 13 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 1.8662, Val Loss = 1.8590
+           Token Accuracy = 17.35%, Sequence Accuracy = 0.00%
+Epoch 14 Sample Prediction (token IDs): [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+Epoch 14 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 1.8708, Val Loss = 1.8555
+           Token Accuracy = 17.76%, Sequence Accuracy = 0.00%
+Epoch 15 Sample Prediction (token IDs): [5, 10, 5, 5, 5, 5, 5, 5, 5, 10]
+Epoch 15 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 16: Teacher Forcing Ratio = 0.363
+Epoch 16: Train Loss = 1.8553, Val Loss = 1.8724
+           Token Accuracy = 17.24%, Sequence Accuracy = 0.00%
+Epoch 16 Sample Prediction (token IDs): [7, 7, 7, 9, 6, 9, 5, 5, 5, 5]
+Epoch 16 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 17: Teacher Forcing Ratio = 0.356
+Epoch 17: Train Loss = 1.8364, Val Loss = 1.8213
+           Token Accuracy = 19.74%, Sequence Accuracy = 0.00%
+Epoch 17 Sample Prediction (token IDs): [6, 6, 6, 6, 6, 6, 9, 5, 5, 5]
+Epoch 17 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 18: Teacher Forcing Ratio = 0.349
+Epoch 18: Train Loss = 1.8234, Val Loss = 1.8071
+           Token Accuracy = 20.16%, Sequence Accuracy = 0.00%
+Epoch 18 Sample Prediction (token IDs): [5, 5, 5, 8, 6, 6, 6, 6, 6, 6]
+Epoch 18 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 19: Teacher Forcing Ratio = 0.342
+Epoch 19: Train Loss = 1.8041, Val Loss = 1.7987
+           Token Accuracy = 20.43%, Sequence Accuracy = 0.00%
+Epoch 19 Sample Prediction (token IDs): [5, 5, 5, 5, 5, 5, 10, 10, 8, 6]
+Epoch 19 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 20: Teacher Forcing Ratio = 0.335
+Epoch 20: Train Loss = 1.7883, Val Loss = 1.7659
+           Token Accuracy = 21.85%, Sequence Accuracy = 0.00%
+Epoch 20 Sample Prediction (token IDs): [5, 5, 5, 5, 5, 5, 6, 6, 6, 6]
+Epoch 20 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 21: Teacher Forcing Ratio = 0.329
+Epoch 21: Train Loss = 1.7734, Val Loss = 1.7336
+           Token Accuracy = 23.60%, Sequence Accuracy = 0.00%
+Epoch 21 Sample Prediction (token IDs): [5, 5, 5, 6, 6, 9, 9, 7, 8, 5]
+Epoch 21 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 22: Teacher Forcing Ratio = 0.322
+Epoch 22: Train Loss = 1.7485, Val Loss = 1.7082
+           Token Accuracy = 24.82%, Sequence Accuracy = 0.00%
+Epoch 22 Sample Prediction (token IDs): [5, 5, 6, 6, 6, 6, 7, 7, 10, 5]
+Epoch 22 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 23: Teacher Forcing Ratio = 0.316
+Epoch 23: Train Loss = 1.7381, Val Loss = 1.7279
+           Token Accuracy = 24.10%, Sequence Accuracy = 0.00%
+Epoch 23 Sample Prediction (token IDs): [5, 5, 8, 6, 10, 10, 8, 10, 5, 5]
+Epoch 23 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 24: Teacher Forcing Ratio = 0.309
+Epoch 24: Train Loss = 1.7233, Val Loss = 1.7485
+           Token Accuracy = 22.89%, Sequence Accuracy = 0.00%
+Epoch 24 Sample Prediction (token IDs): [5, 5, 6, 6, 6, 10, 8, 8, 8, 8]
+Epoch 24 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 25: Teacher Forcing Ratio = 0.303
+Epoch 25: Train Loss = 1.7118, Val Loss = 1.6810
+           Token Accuracy = 25.65%, Sequence Accuracy = 0.00%
+Epoch 25 Sample Prediction (token IDs): [5, 5, 5, 6, 6, 6, 6, 6, 6, 5]
+Epoch 25 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 26: Teacher Forcing Ratio = 0.297
+Epoch 26: Train Loss = 1.7001, Val Loss = 1.6817
+           Token Accuracy = 25.55%, Sequence Accuracy = 0.00%
+Epoch 26 Sample Prediction (token IDs): [6, 5, 6, 6, 6, 6, 8, 6, 6, 5]
+Epoch 26 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 27: Teacher Forcing Ratio = 0.291
+Epoch 27: Train Loss = 1.6883, Val Loss = 1.6561
+           Token Accuracy = 26.73%, Sequence Accuracy = 0.00%
+Epoch 27 Sample Prediction (token IDs): [6, 5, 5, 10, 8, 7, 10, 10, 5, 8]
+Epoch 27 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 28: Teacher Forcing Ratio = 0.286
+Epoch 28: Train Loss = 1.6778, Val Loss = 1.6709
+           Token Accuracy = 25.24%, Sequence Accuracy = 0.00%
+Epoch 28 Sample Prediction (token IDs): [5, 5, 5, 10, 10, 10, 8, 8, 8, 5]
+Epoch 28 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 29: Teacher Forcing Ratio = 0.280
+Epoch 29: Train Loss = 1.6643, Val Loss = 1.6372
+           Token Accuracy = 27.41%, Sequence Accuracy = 0.00%
+Epoch 29 Sample Prediction (token IDs): [6, 5, 5, 10, 10, 9, 6, 6, 6, 6]
+Epoch 29 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 30: Teacher Forcing Ratio = 0.274
+Epoch 30: Train Loss = 1.6462, Val Loss = 1.6087
+           Token Accuracy = 28.67%, Sequence Accuracy = 0.00%
+Epoch 30 Sample Prediction (token IDs): [6, 5, 5, 10, 8, 9, 10, 10, 6, 6]
+Epoch 30 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 31: Teacher Forcing Ratio = 0.269
+Epoch 31: Train Loss = 1.6324, Val Loss = 1.6610
+           Token Accuracy = 26.36%, Sequence Accuracy = 0.00%
+Epoch 31 Sample Prediction (token IDs): [6, 5, 5, 10, 10, 10, 6, 6, 10, 5]
+Epoch 31 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 32: Teacher Forcing Ratio = 0.264
+Epoch 32: Train Loss = 1.6288, Val Loss = 1.6039
+           Token Accuracy = 28.58%, Sequence Accuracy = 0.00%
+Epoch 32 Sample Prediction (token IDs): [6, 5, 5, 8, 10, 10, 6, 6, 5, 5]
+Epoch 32 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 33: Teacher Forcing Ratio = 0.258
+Epoch 33: Train Loss = 1.6150, Val Loss = 1.5685
+           Token Accuracy = 29.78%, Sequence Accuracy = 0.00%
+Epoch 33 Sample Prediction (token IDs): [6, 5, 5, 5, 8, 8, 7, 6, 6, 5]
+Epoch 33 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 34: Teacher Forcing Ratio = 0.253
+Epoch 34: Train Loss = 1.6009, Val Loss = 1.5694
+           Token Accuracy = 29.54%, Sequence Accuracy = 0.00%
+Epoch 34 Sample Prediction (token IDs): [6, 5, 5, 8, 8, 8, 8, 8, 8, 5]
+Epoch 34 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 35: Teacher Forcing Ratio = 0.248
+Epoch 35: Train Loss = 1.5917, Val Loss = 1.5736
+           Token Accuracy = 29.75%, Sequence Accuracy = 0.00%
+Epoch 35 Sample Prediction (token IDs): [6, 5, 5, 6, 8, 9, 6, 6, 6, 5]
+Epoch 35 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 36: Teacher Forcing Ratio = 0.243
+Epoch 36: Train Loss = 1.5748, Val Loss = 1.5432
+           Token Accuracy = 30.87%, Sequence Accuracy = 0.00%
+Epoch 36 Sample Prediction (token IDs): [6, 5, 6, 6, 8, 9, 6, 8, 6, 5]
+Epoch 36 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 37: Teacher Forcing Ratio = 0.239
+Epoch 37: Train Loss = 1.5579, Val Loss = 1.5300
+           Token Accuracy = 31.23%, Sequence Accuracy = 0.00%
+Epoch 37 Sample Prediction (token IDs): [8, 5, 6, 9, 9, 9, 3, 6, 9, 6]
+Epoch 37 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 38: Teacher Forcing Ratio = 0.234
+Epoch 38: Train Loss = 1.5473, Val Loss = 1.5917
+           Token Accuracy = 29.44%, Sequence Accuracy = 0.00%
+Epoch 38 Sample Prediction (token IDs): [8, 5, 5, 6, 8, 8, 10, 6, 5, 5]
+Epoch 38 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 39: Teacher Forcing Ratio = 0.229
+Epoch 39: Train Loss = 1.5279, Val Loss = 1.4635
+           Token Accuracy = 33.93%, Sequence Accuracy = 0.00%
+Epoch 39 Sample Prediction (token IDs): [7, 5, 5, 8, 8, 9, 9, 6, 6, 6]
+Epoch 39 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 40: Teacher Forcing Ratio = 0.225
+Epoch 40: Train Loss = 1.5204, Val Loss = 1.5025
+           Token Accuracy = 32.50%, Sequence Accuracy = 0.00%
+Epoch 40 Sample Prediction (token IDs): [6, 5, 6, 10, 6, 6, 10, 8, 5, 6]
+Epoch 40 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 41: Teacher Forcing Ratio = 0.220
+Epoch 41: Train Loss = 1.5102, Val Loss = 1.5107
+           Token Accuracy = 32.13%, Sequence Accuracy = 0.00%
+Epoch 41 Sample Prediction (token IDs): [7, 5, 8, 10, 8, 8, 10, 6, 6, 6]
+Epoch 41 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 42: Teacher Forcing Ratio = 0.216
+Epoch 42: Train Loss = 1.5005, Val Loss = 1.4693
+           Token Accuracy = 33.55%, Sequence Accuracy = 0.00%
+Epoch 42 Sample Prediction (token IDs): [8, 5, 5, 10, 6, 5, 3, 5, 8, 6]
+Epoch 42 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 43: Teacher Forcing Ratio = 0.212
+Epoch 43: Train Loss = 1.4964, Val Loss = 1.4500
+           Token Accuracy = 34.76%, Sequence Accuracy = 0.00%
+Epoch 43 Sample Prediction (token IDs): [8, 5, 5, 8, 8, 9, 3, 6, 6, 6]
+Epoch 43 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 44: Teacher Forcing Ratio = 0.207
+Epoch 44: Train Loss = 1.4863, Val Loss = 1.4278
+           Token Accuracy = 35.42%, Sequence Accuracy = 0.00%
+Epoch 44 Sample Prediction (token IDs): [8, 5, 5, 8, 6, 8, 10, 8, 5, 5]
+Epoch 44 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 45: Teacher Forcing Ratio = 0.203
+Epoch 45: Train Loss = 1.4769, Val Loss = 1.4178
+           Token Accuracy = 35.44%, Sequence Accuracy = 0.00%
+Epoch 45 Sample Prediction (token IDs): [8, 5, 5, 8, 6, 8, 3, 6, 6, 6]
+Epoch 45 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 46: Teacher Forcing Ratio = 0.199
+Epoch 46: Train Loss = 1.4618, Val Loss = 1.4160
+           Token Accuracy = 35.79%, Sequence Accuracy = 0.00%
+Epoch 46 Sample Prediction (token IDs): [8, 5, 5, 5, 8, 8, 3, 8, 8, 5]
+Epoch 46 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 47: Teacher Forcing Ratio = 0.195
+Epoch 47: Train Loss = 1.4408, Val Loss = 1.3845
+           Token Accuracy = 36.60%, Sequence Accuracy = 0.00%
+Epoch 47 Sample Prediction (token IDs): [8, 5, 9, 8, 10, 6, 10, 8, 6, 6]
+Epoch 47 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 48: Teacher Forcing Ratio = 0.191
+Epoch 48: Train Loss = 1.4277, Val Loss = 1.4174
+           Token Accuracy = 35.25%, Sequence Accuracy = 0.00%
+Epoch 48 Sample Prediction (token IDs): [8, 5, 5, 8, 8, 5, 10, 6, 6, 6]
+Epoch 48 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 49: Teacher Forcing Ratio = 0.188
+Epoch 49: Train Loss = 1.4156, Val Loss = 1.3466
+           Token Accuracy = 38.82%, Sequence Accuracy = 0.05%
+Epoch 49 Sample Prediction (token IDs): [6, 5, 5, 8, 10, 6, 10, 6, 6, 6]
+Epoch 49 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 50: Teacher Forcing Ratio = 0.184
+Epoch 50: Train Loss = 1.4002, Val Loss = 1.4278
+           Token Accuracy = 35.10%, Sequence Accuracy = 0.00%
+Epoch 50 Sample Prediction (token IDs): [8, 5, 8, 9, 10, 6, 10, 6, 6, 6]
+Epoch 50 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 51: Teacher Forcing Ratio = 0.180
+Epoch 51: Train Loss = 1.3824, Val Loss = 1.3734
+           Token Accuracy = 37.39%, Sequence Accuracy = 0.00%
+Epoch 51 Sample Prediction (token IDs): [8, 5, 5, 7, 10, 6, 3, 8, 8, 5]
+Epoch 51 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 52: Teacher Forcing Ratio = 0.177
+Epoch 52: Train Loss = 1.3652, Val Loss = 1.5030
+           Token Accuracy = 32.51%, Sequence Accuracy = 0.00%
+Epoch 52 Sample Prediction (token IDs): [8, 5, 5, 10, 3, 6, 3, 6, 6, 6]
+Epoch 52 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 53: Teacher Forcing Ratio = 0.173
+Epoch 53: Train Loss = 1.3648, Val Loss = 1.2781
+           Token Accuracy = 42.19%, Sequence Accuracy = 0.00%
+Epoch 53 Sample Prediction (token IDs): [6, 5, 5, 10, 10, 6, 10, 6, 8, 6]
+Epoch 53 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 54: Teacher Forcing Ratio = 0.170
+Epoch 54: Train Loss = 1.3490, Val Loss = 1.5083
+           Token Accuracy = 32.55%, Sequence Accuracy = 0.00%
+Epoch 54 Sample Prediction (token IDs): [8, 5, 5, 10, 8, 6, 7, 6, 6, 6]
+Epoch 54 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 55: Teacher Forcing Ratio = 0.166
+Epoch 55: Train Loss = 1.3492, Val Loss = 1.3069
+           Token Accuracy = 40.66%, Sequence Accuracy = 0.00%
+Epoch 55 Sample Prediction (token IDs): [8, 5, 5, 10, 10, 6, 10, 6, 9, 6]
+Epoch 55 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 56: Teacher Forcing Ratio = 0.163
+Epoch 56: Train Loss = 1.3428, Val Loss = 1.2931
+           Token Accuracy = 41.52%, Sequence Accuracy = 0.00%
+Epoch 56 Sample Prediction (token IDs): [8, 5, 5, 10, 8, 6, 7, 6, 5, 6]
+Epoch 56 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 57: Teacher Forcing Ratio = 0.160
+Epoch 57: Train Loss = 1.3274, Val Loss = 1.3352
+           Token Accuracy = 38.98%, Sequence Accuracy = 0.05%
+Epoch 57 Sample Prediction (token IDs): [5, 5, 5, 10, 10, 6, 10, 5, 6, 6]
+Epoch 57 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 58: Teacher Forcing Ratio = 0.157
+Epoch 58: Train Loss = 1.3233, Val Loss = 1.2520
+           Token Accuracy = 43.01%, Sequence Accuracy = 0.00%
+Epoch 58 Sample Prediction (token IDs): [8, 5, 5, 10, 9, 6, 10, 5, 5, 5]
+Epoch 58 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 59: Teacher Forcing Ratio = 0.154
+Epoch 59: Train Loss = 1.3117, Val Loss = 1.2739
+           Token Accuracy = 41.50%, Sequence Accuracy = 0.00%
+Epoch 59 Sample Prediction (token IDs): [6, 5, 5, 10, 7, 6, 7, 6, 6, 5]
+Epoch 59 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 60: Teacher Forcing Ratio = 0.151
+Epoch 60: Train Loss = 1.3138, Val Loss = 1.2993
+           Token Accuracy = 39.92%, Sequence Accuracy = 0.00%
+Epoch 60 Sample Prediction (token IDs): [6, 5, 5, 10, 3, 9, 3, 6, 9, 6]
+Epoch 60 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 61: Teacher Forcing Ratio = 0.148
+Epoch 61: Train Loss = 1.3050, Val Loss = 1.2636
+           Token Accuracy = 42.42%, Sequence Accuracy = 0.00%
+Epoch 61 Sample Prediction (token IDs): [8, 5, 5, 10, 8, 6, 10, 6, 6, 5]
+Epoch 61 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 62: Teacher Forcing Ratio = 0.145
+Epoch 62: Train Loss = 1.3012, Val Loss = 1.2290
+           Token Accuracy = 43.84%, Sequence Accuracy = 0.00%
+Epoch 62 Sample Prediction (token IDs): [8, 5, 5, 10, 3, 6, 10, 6, 6, 8]
+Epoch 62 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 63: Teacher Forcing Ratio = 0.142
+Epoch 63: Train Loss = 1.2936, Val Loss = 1.2387
+           Token Accuracy = 43.16%, Sequence Accuracy = 0.00%
+Epoch 63 Sample Prediction (token IDs): [6, 5, 5, 10, 8, 6, 10, 6, 6, 6]
+Epoch 63 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 64: Teacher Forcing Ratio = 0.139
+Epoch 64: Train Loss = 1.2865, Val Loss = 1.2851
+           Token Accuracy = 42.10%, Sequence Accuracy = 0.05%
+Epoch 64 Sample Prediction (token IDs): [6, 5, 5, 3, 3, 9, 3, 6, 5, 5]
+Epoch 64 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 65: Teacher Forcing Ratio = 0.136
+Epoch 65: Train Loss = 1.2784, Val Loss = 1.2398
+           Token Accuracy = 43.69%, Sequence Accuracy = 0.00%
+Epoch 65 Sample Prediction (token IDs): [6, 6, 6, 7, 8, 6, 10, 6, 8, 6]
+Epoch 65 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 66: Teacher Forcing Ratio = 0.134
+Epoch 66: Train Loss = 1.2800, Val Loss = 1.2171
+           Token Accuracy = 44.16%, Sequence Accuracy = 0.05%
+Epoch 66 Sample Prediction (token IDs): [6, 5, 6, 10, 10, 6, 10, 6, 6, 6]
+Epoch 66 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 67: Teacher Forcing Ratio = 0.131
+Epoch 67: Train Loss = 1.2748, Val Loss = 1.1999
+           Token Accuracy = 45.04%, Sequence Accuracy = 0.05%
+Epoch 67 Sample Prediction (token IDs): [8, 5, 6, 10, 3, 6, 10, 6, 5, 6]
+Epoch 67 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 68: Teacher Forcing Ratio = 0.128
+Epoch 68: Train Loss = 1.2720, Val Loss = 1.2165
+           Token Accuracy = 44.38%, Sequence Accuracy = 0.10%
+Epoch 68 Sample Prediction (token IDs): [8, 5, 5, 10, 3, 6, 10, 6, 6, 6]
+Epoch 68 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 69: Teacher Forcing Ratio = 0.126
+Epoch 69: Train Loss = 1.2720, Val Loss = 1.2013
+           Token Accuracy = 45.10%, Sequence Accuracy = 0.00%
+Epoch 69 Sample Prediction (token IDs): [5, 5, 5, 10, 8, 6, 7, 6, 5, 5]
+Epoch 69 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 70: Teacher Forcing Ratio = 0.123
+Epoch 70: Train Loss = 1.2545, Val Loss = 1.2310
+           Token Accuracy = 43.82%, Sequence Accuracy = 0.00%
+Epoch 70 Sample Prediction (token IDs): [8, 5, 5, 10, 10, 6, 10, 6, 5, 6]
+Epoch 70 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 71: Teacher Forcing Ratio = 0.121
+Epoch 71: Train Loss = 1.2531, Val Loss = 1.1945
+           Token Accuracy = 44.76%, Sequence Accuracy = 0.00%
+Epoch 71 Sample Prediction (token IDs): [8, 5, 5, 10, 10, 6, 7, 6, 6, 6]
+Epoch 71 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 72: Teacher Forcing Ratio = 0.118
+Epoch 72: Train Loss = 1.2546, Val Loss = 1.2775
+           Token Accuracy = 41.79%, Sequence Accuracy = 0.00%
+Epoch 72 Sample Prediction (token IDs): [6, 5, 6, 10, 10, 6, 9, 6, 9, 8]
+Epoch 72 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 73: Teacher Forcing Ratio = 0.116
+Epoch 73: Train Loss = 1.2521, Val Loss = 1.2416
+           Token Accuracy = 42.88%, Sequence Accuracy = 0.00%
+Epoch 73 Sample Prediction (token IDs): [6, 5, 6, 10, 3, 6, 10, 6, 5, 8]
+Epoch 73 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 74: Teacher Forcing Ratio = 0.114
+Epoch 74: Train Loss = 1.2459, Val Loss = 1.2526
+           Token Accuracy = 41.91%, Sequence Accuracy = 0.00%
+Epoch 74 Sample Prediction (token IDs): [5, 5, 5, 10, 3, 6, 8, 5, 6, 8]
+Epoch 74 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 75: Teacher Forcing Ratio = 0.112
+Epoch 75: Train Loss = 1.2426, Val Loss = 1.1865
+           Token Accuracy = 45.91%, Sequence Accuracy = 0.00%
+Epoch 75 Sample Prediction (token IDs): [8, 5, 9, 10, 10, 6, 10, 6, 8, 6]
+Epoch 75 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 76: Teacher Forcing Ratio = 0.109
+Epoch 76: Train Loss = 1.2405, Val Loss = 1.2509
+           Token Accuracy = 42.70%, Sequence Accuracy = 0.00%
+Epoch 76 Sample Prediction (token IDs): [6, 5, 5, 10, 3, 6, 10, 6, 8, 5]
+Epoch 76 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 77: Teacher Forcing Ratio = 0.107
+Epoch 77: Train Loss = 1.2330, Val Loss = 1.2075
+           Token Accuracy = 44.23%, Sequence Accuracy = 0.05%
+Epoch 77 Sample Prediction (token IDs): [8, 6, 5, 10, 8, 6, 3, 6, 6, 5]
+Epoch 77 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 78: Teacher Forcing Ratio = 0.105
+Epoch 78: Train Loss = 1.2328, Val Loss = 1.3437
+           Token Accuracy = 39.92%, Sequence Accuracy = 0.05%
+Epoch 78 Sample Prediction (token IDs): [6, 5, 5, 7, 10, 6, 10, 9, 9, 6]
+Epoch 78 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 79: Teacher Forcing Ratio = 0.103
+Epoch 79: Train Loss = 1.2257, Val Loss = 1.1664
+           Token Accuracy = 46.06%, Sequence Accuracy = 0.10%
+Epoch 79 Sample Prediction (token IDs): [5, 5, 6, 10, 8, 6, 10, 6, 5, 8]
+Epoch 79 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 80: Teacher Forcing Ratio = 0.101
+Epoch 80: Train Loss = 1.2240, Val Loss = 1.2804
+           Token Accuracy = 41.82%, Sequence Accuracy = 0.05%
+Epoch 80 Sample Prediction (token IDs): [6, 5, 5, 10, 10, 6, 8, 5, 8, 6]
+Epoch 80 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 81: Teacher Forcing Ratio = 0.099
+Epoch 81: Train Loss = 1.2209, Val Loss = 1.1869
+           Token Accuracy = 45.48%, Sequence Accuracy = 0.00%
+Epoch 81 Sample Prediction (token IDs): [6, 5, 6, 10, 3, 6, 8, 6, 6, 6]
+Epoch 81 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 82: Teacher Forcing Ratio = 0.097
+Epoch 82: Train Loss = 1.2213, Val Loss = 1.1591
+           Token Accuracy = 46.58%, Sequence Accuracy = 0.00%
+Epoch 82 Sample Prediction (token IDs): [5, 6, 6, 10, 3, 6, 3, 6, 6, 6]
+Epoch 82 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 83: Teacher Forcing Ratio = 0.095
+Epoch 83: Train Loss = 1.2115, Val Loss = 1.1744
+           Token Accuracy = 45.98%, Sequence Accuracy = 0.05%
+Epoch 83 Sample Prediction (token IDs): [5, 5, 5, 10, 10, 6, 10, 6, 6, 6]
+Epoch 83 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 84: Teacher Forcing Ratio = 0.093
+Epoch 84: Train Loss = 1.2099, Val Loss = 1.2606
+           Token Accuracy = 43.60%, Sequence Accuracy = 0.05%
+Epoch 84 Sample Prediction (token IDs): [6, 5, 5, 7, 8, 9, 7, 6, 5, 5]
+Epoch 84 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 85: Teacher Forcing Ratio = 0.091
+Epoch 85: Train Loss = 1.2112, Val Loss = 1.1392
+           Token Accuracy = 47.78%, Sequence Accuracy = 0.00%
+Epoch 85 Sample Prediction (token IDs): [8, 5, 6, 10, 10, 6, 8, 6, 5, 6]
+Epoch 85 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 86: Teacher Forcing Ratio = 0.090
+Epoch 86: Train Loss = 1.2093, Val Loss = 1.1671
+           Token Accuracy = 45.98%, Sequence Accuracy = 0.05%
+Epoch 86 Sample Prediction (token IDs): [5, 5, 5, 7, 10, 6, 10, 6, 6, 8]
+Epoch 86 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 87: Teacher Forcing Ratio = 0.088
+Epoch 87: Train Loss = 1.2061, Val Loss = 1.1808
+           Token Accuracy = 46.18%, Sequence Accuracy = 0.00%
+Epoch 87 Sample Prediction (token IDs): [6, 5, 6, 10, 10, 6, 8, 6, 6, 8]
+Epoch 87 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 88: Teacher Forcing Ratio = 0.086
+Epoch 88: Train Loss = 1.2136, Val Loss = 1.2677
+           Token Accuracy = 45.13%, Sequence Accuracy = 0.05%
+Epoch 88 Sample Prediction (token IDs): [6, 5, 5, 7, 3, 6, 10, 6, 8, 5]
+Epoch 88 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 89: Teacher Forcing Ratio = 0.084
+Epoch 89: Train Loss = 1.2031, Val Loss = 1.2095
+           Token Accuracy = 45.62%, Sequence Accuracy = 0.00%
+Epoch 89 Sample Prediction (token IDs): [6, 6, 5, 7, 3, 6, 10, 6, 6, 5]
+Epoch 89 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 90: Teacher Forcing Ratio = 0.083
+Epoch 90: Train Loss = 1.2026, Val Loss = 1.2359
+           Token Accuracy = 44.10%, Sequence Accuracy = 0.00%
+Epoch 90 Sample Prediction (token IDs): [8, 5, 5, 10, 10, 9, 10, 6, 8, 5]
+Epoch 90 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 91: Teacher Forcing Ratio = 0.081
+Epoch 91: Train Loss = 1.1968, Val Loss = 1.2547
+           Token Accuracy = 42.94%, Sequence Accuracy = 0.00%
+Epoch 91 Sample Prediction (token IDs): [8, 5, 5, 7, 3, 6, 9, 5, 8, 5]
+Epoch 91 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 92: Teacher Forcing Ratio = 0.079
+Epoch 92: Train Loss = 1.1987, Val Loss = 1.1642
+           Token Accuracy = 46.29%, Sequence Accuracy = 0.00%
+Epoch 92 Sample Prediction (token IDs): [5, 5, 6, 10, 10, 6, 9, 6, 5, 5]
+Epoch 92 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 93: Teacher Forcing Ratio = 0.078
+Epoch 93: Train Loss = 1.1937, Val Loss = 1.2874
+           Token Accuracy = 42.47%, Sequence Accuracy = 0.00%
+Epoch 93 Sample Prediction (token IDs): [6, 5, 6, 7, 8, 6, 10, 6, 8, 6]
+Epoch 93 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 94: Teacher Forcing Ratio = 0.076
+Epoch 94: Train Loss = 1.1899, Val Loss = 1.2287
+           Token Accuracy = 44.25%, Sequence Accuracy = 0.20%
+Epoch 94 Sample Prediction (token IDs): [8, 5, 6, 10, 3, 6, 8, 5, 8, 5]
+Epoch 94 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Epoch 95: Teacher Forcing Ratio = 0.075
+Epoch 95: Train Loss = 1.1894, Val Loss = 1.1482
+           Token Accuracy = 47.09%, Sequence Accuracy = 0.05%
+Epoch 95 Sample Prediction (token IDs): [6, 5, 6, 10, 8, 6, 9, 6, 6, 6]
+Epoch 95 Ground Truth (token IDs): [6, 5, 5, 7, 3, 6, 8, 6, 6, 5]
+Early stopping triggered after 95 epochs.
+Test Token Accuracy: 47.04%, Test Sequence Accuracy: 0.00%

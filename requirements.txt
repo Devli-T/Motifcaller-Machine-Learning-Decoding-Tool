@@ -1,0 +1,12 @@
+# Core packages
+numpy
+pandas
+matplotlib
+scikit-learn
+optuna
+h5py
+torch
+biopython
+
+# If using multiple GPUs with DataParallel (PyTorch handles this internally)
+# If running on GPU, ensure CUDA-compatible version of PyTorch is installed separately.
