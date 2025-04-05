@@ -13,26 +13,35 @@ python simplified_fasta_gen.py
 cd ..
 ./simplified_process_oligos.sh
 python simplified_create_csv.py
+```
 
 ## Notable Results for Method 1
 
 ### Baseline Results
-| Dataset Rows | Test Token Accuracy | Test Sequence Accuracy |
-|--------------|---------------------|------------------------|
-| 1,000        | 16.65%              | 0.00%                  |
-| 10,000       | 47.04%              | 0.00%                  |
-| 50,000       | 60.06%              | 1.77%                  |
-| 100,000      | 75.65%              | 9.03%                  |
+- Dataset Rows: 1,000
+  - Test Token Accuracy: 16.65%
+  - Test Sequence Accuracy: 0.00%
+- Dataset Rows: 10,000
+  - Test Token Accuracy: 47.04%
+  - Test Sequence Accuracy: 0.00%
+- Dataset Rows: 50,000
+  - Test Token Accuracy: 60.06%
+  - Test Sequence Accuracy: 1.77%
+- Dataset Rows: 100,000
+  - Test Token Accuracy: 75.65%
+  - Test Sequence Accuracy: 9.03%
 
 ### Results Using Optuna for Hyperparameter Tuning
-| Dataset Rows       | Test Token Accuracy | Test Sequence Accuracy |
-|--------------------|---------------------|------------------------|
-| 50,000 + Optuna    | 99.78%              | 97.94%                 |
-| 100,000 + Optuna   | 99.98%              | 99.76%                 |
+- Dataset Rows: 50,000 + Optuna
+  - Test Token Accuracy: 99.78%
+  - Test Sequence Accuracy: 97.94%
+- Dataset Rows: 100,000 + Optuna
+  - Test Token Accuracy: 99.98%
+  - Test Sequence Accuracy: 99.76%
 
 ## Squigulator Reference
 This project makes use of Squigulator to generate synthetic nanopore sequencing signal data. Special thanks to the developers for providing a robust and tunable simulation tool.
 
-| Resource    | Link                                                                                     |
-|-------------|------------------------------------------------------------------------------------------|
-| Squigulator | [Squigulator](https://github.com/hasindu2008/squigulator)      
+- Resource: Squigulator
+  - Link: [Squigulator](https://github.com/hasindu2008/squigulator)
+```
