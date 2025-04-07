@@ -8,6 +8,7 @@ To generate synthetic data using Squigulator, follow these steps:
 
 ```bash
 cd squigulator
+source myenv/bin/activate
 cd Easy_FastA_Generation
 python simplified_fasta_gen.py
 cd ..
@@ -32,7 +33,7 @@ python simplified_create_csv.py
 | 100,000 + Optuna     | 99.98%              | 99.76%                 |
 
 ## Squigulator Reference
-This project makes use of Squigulator to generate synthetic nanopore sequencing signal data. Special thanks to the developers for providing a robust and tunable simulation tool.
+This project makes use of Squigulator to generate synthetic nanopore sequencing signal data. Special thanks to the developers for providing the simulation tool.
 
 - Resource: Squigulator
   - Link: [Squigulator](https://github.com/hasindu2008/squigulator)

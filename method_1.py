@@ -7,7 +7,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader, Subset
-from torch.nn.utils.rnn import pad_sequence
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import optuna
