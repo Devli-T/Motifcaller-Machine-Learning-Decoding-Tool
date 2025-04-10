@@ -1,7 +1,7 @@
 # Sequence-to-Sequence Motif Caller
 
 ## Overview
-This project implements a sequence-to-sequence model for calling motifs from nanopore sequencing signal data. The current implementation (Method 1) utilises a convolutional encoder and transformer encoder combined with a GRU-based decoder with an attention mechanism to generate motif sequences from raw signal data. Two additional methods will be added in future updates.
+This project implements a sequence-to-sequence model for calling motifs from nanopore sequencing signal data. The current implementation utilises a convolutional encoder and transformer encoder combined with a GRU-based decoder with an attention mechanism to generate motif sequences from raw signal data. In upcoming future updates, more graphical data anaylsis will be provided.
 
 ## Synthetic Data Generation
 To generate synthetic data using Squigulator, follow these steps:
@@ -29,12 +29,13 @@ python simplified_create_csv.py
 ### Results Using Optuna for Hyperparameter Tuning
 | Dataset Rows         | Test Token Accuracy | Test Sequence Accuracy |
 |----------------------|---------------------|------------------------|
+| 10,000 + Optuna      | 87.12%              | 26.20%                 |
 | 50,000 + Optuna      | 99.78%              | 97.94%                 |
 | 100,000 + Optuna     | 99.98%              | 99.76%                 |
+(Max 100 Epoch Run with Early Stopping)
 
 ## Squigulator Reference
 This project makes use of Squigulator to generate synthetic nanopore sequencing signal data. Special thanks to the developers for providing the simulation tool.
 
 - Resource: Squigulator
   - Link: [Squigulator](https://github.com/hasindu2008/squigulator)
-```
