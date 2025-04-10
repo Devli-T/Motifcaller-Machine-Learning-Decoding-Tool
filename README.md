@@ -1,7 +1,7 @@
 # Sequence-to-Sequence Motif Caller
 
 ## Overview
-This project implements a sequence-to-sequence model for calling motifs from nanopore sequencing signal data. The current implementation utilises a convolutional encoder and transformer encoder combined with a GRU-based decoder with an attention mechanism to generate motif sequences from raw signal data. In upcoming future updates, more graphical data anaylsis will be provided.
+This project implements a sequence-to-sequence model for calling motifs from nanopore sequencing signal data. The current implementation utilises a convolutional encoder and transformer encoder combined with a GRU-based decoder with an attention mechanism to generate motif sequences from raw signal data. In upcoming future updates, more graphical data analysis will be provided.
 
 ## Synthetic Data Generation
 To generate synthetic data using Squigulator, follow these steps:
