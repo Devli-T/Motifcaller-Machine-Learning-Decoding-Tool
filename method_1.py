@@ -10,6 +10,7 @@ from torch.utils.data import Dataset, DataLoader, Subset
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import optuna
+import json
 
 # ============================================================
 # Global Constants and Configuration Settings
@@ -25,7 +26,7 @@ USE_OPTUNA = True   # Set to True to perform hyperparameter tuning with Optuna
 # ============================================================
 # Function to normalise an input signal array.
 # ============================================================
-def normalize_signal(signal, method="robust_no_center"):
+def normalise_signal(signal, method="robust_no_centre"):
     # Z-score normalisation: centre the data by mean and scale by standard deviation.
     if method == "zscore":
         std = np.std(signal)
@@ -36,22 +37,24 @@ def normalize_signal(signal, method="robust_no_center"):
         max_val = np.max(signal)
         return (signal - min_val) / ((max_val - min_val) if (max_val - min_val) > 0 else 1.0)
     # Robust normalisation without centring: scales by the interquartile range.
-    elif method == "robust_no_center":
+    elif method == "robust_no_centre":
         q1 = np.percentile(signal, 25)
         q3 = np.percentile(signal, 75)
         iqr = q3 - q1 if (q3 - q1) > 0 else 1.0
         return signal / iqr
     else:
-        raise ValueError("Unknown normalization method")
+        raise ValueError("Unknown normalisation method")
 
 # ============================================================
 # Custom Dataset: Reads CSV file and processes motif sequences.
 # ============================================================
 class MotifSeqDataset(Dataset):
     # Initialise the dataset.
-    def __init__(self, csv_path, norm_method="robust_no_center", debug=False):
+    def __init__(self, csv_path, norm_method="robust_no_centre", debug=False):
         self.debug = debug
         self.results_df = pd.read_csv(csv_path)
+        # Change number of rows to compare effect of size of sample data
+        self.results_df = self.results_df[:50000]
         if self.debug:
             print(f"[DEBUG] Loaded {len(self.results_df)} entries from {csv_path}.", flush=True)
         # Build the vocabulary from the 'motifs' column.
@@ -64,11 +67,20 @@ class MotifSeqDataset(Dataset):
         # Map special tokens and unique motifs to indices.
         self.motif2idx = {"<PAD>": PAD_TOKEN, "<SOS>": SOS_TOKEN, "<EOS>": EOS_TOKEN}
         self.idx2motif = {PAD_TOKEN: "<PAD>", SOS_TOKEN: "<SOS>", EOS_TOKEN: "<EOS>"}
+        
         next_idx = 3
         for motif in unique_motifs:
             self.motif2idx[motif] = next_idx
             self.idx2motif[next_idx] = motif
             next_idx += 1
+            
+        # Save the mapping to a JSON file needed for CLI tool.
+        json_path = os.path.splitext(csv_path)[0] + "_motif2idx.json"
+        with open(json_path, "w") as jf:
+            json.dump(self.motif2idx, jf, indent=2)
+        if self.debug:
+            print(f"[DEBUG] Saved motif2idx JSON to {json_path}", flush=True)
+            
         self.vocab_size = next_idx
         if self.debug:
             print(f"[DEBUG] Vocabulary size (with special tokens): {self.vocab_size}", flush=True)
@@ -83,7 +95,7 @@ class MotifSeqDataset(Dataset):
         # Convert raw_signal string to a NumPy array of floats.
         raw_signal = np.array([float(x) for x in row["raw_signal"].split(';')])
         # Normalise the signal.
-        norm_signal = normalize_signal(raw_signal, method="robust_no_center")
+        norm_signal = normalise_signal(raw_signal, method="robust_no_centre")
         # Convert to a tensor and add a channel dimension.
         signal_tensor = torch.tensor(norm_signal, dtype=torch.float).unsqueeze(0)  # (1, T)
         
@@ -290,7 +302,7 @@ def evaluate_model_seq(model, dataloader, device, idx2motif, max_length=100):
 # ============================================================
 def train_model(model, train_loader, val_loader, device, num_epochs=100, lr=1e-3, weight_decay=1e-4,
                 grad_clip=1.0, max_length=100, teacher_forcing_init=0.5, teacher_forcing_final=0.0,
-                decay_rate=50, patience=10):
+                decay_rate=50, patience=5):
     model.to(device)
     optimizer = optim.Adam(model.parameters(), lr=lr, weight_decay=weight_decay)
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=patience, verbose=True)
@@ -412,7 +424,7 @@ def objective(trial):
     
     # Build dataset and split into training and validation subsets.
     csv_path = os.path.join("squigulator", "longer_large_simplified_results.csv")
-    dataset = MotifSeqDataset(csv_path, norm_method="robust_no_center", debug=False)
+    dataset = MotifSeqDataset(csv_path, norm_method="robust_no_centre", debug=False)
     total_samples = len(dataset)
     train_size = int(0.6 * total_samples)
     val_size = int(0.2 * total_samples)
@@ -443,7 +455,7 @@ def objective(trial):
 # ============================================================
 if __name__ == "__main__":
     csv_path = os.path.join("squigulator", "longer_large_simplified_results.csv")
-    dataset = MotifSeqDataset(csv_path, norm_method="robust_no_center", debug=True)
+    dataset = MotifSeqDataset(csv_path, norm_method="robust_no_centre", debug=True)
     total_samples = len(dataset)
     train_size = int(0.6 * total_samples)
     val_size = int(0.2 * total_samples)
@@ -480,7 +492,7 @@ if __name__ == "__main__":
         final_weight_decay = best_params["weight_decay"]
         final_batch_size = best_params["batch_size"]
     else:
-        final_d_model = 64
+        final_d_model = 256
         final_nhead = 4
         final_num_encoder_layers = 2
         final_dropout = 0.1

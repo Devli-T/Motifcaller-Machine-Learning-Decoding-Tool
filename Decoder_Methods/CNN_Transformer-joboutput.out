@@ -1,0 +1,816 @@
+[INFO] Using device: NVIDIA A10
+
+=== Running experiment with encoder variant: CNN_Transformer ===
+
+=== Decoder variant: GRU ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 1.9315, Val Loss = 1.8870
+           Token Accuracy = 14.95%, Sequence Accuracy = 0.00%
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 1.8846, Val Loss = 1.8929
+           Token Accuracy = 13.66%, Sequence Accuracy = 0.00%
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 1.8599, Val Loss = 1.8011
+           Token Accuracy = 20.87%, Sequence Accuracy = 0.00%
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 1.7747, Val Loss = 1.7256
+           Token Accuracy = 24.63%, Sequence Accuracy = 0.00%
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 1.6979, Val Loss = 1.6512
+           Token Accuracy = 26.83%, Sequence Accuracy = 0.00%
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 1.6156, Val Loss = 1.5268
+           Token Accuracy = 32.06%, Sequence Accuracy = 0.00%
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 1.5356, Val Loss = 1.4863
+           Token Accuracy = 33.31%, Sequence Accuracy = 0.00%
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 1.4559, Val Loss = 1.3608
+           Token Accuracy = 37.48%, Sequence Accuracy = 0.00%
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 1.3744, Val Loss = 1.2874
+           Token Accuracy = 40.56%, Sequence Accuracy = 0.02%
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 1.2948, Val Loss = 1.3004
+           Token Accuracy = 38.62%, Sequence Accuracy = 0.00%
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 1.2279, Val Loss = 1.1491
+           Token Accuracy = 45.52%, Sequence Accuracy = 0.02%
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 1.1765, Val Loss = 1.1397
+           Token Accuracy = 45.41%, Sequence Accuracy = 0.08%
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 1.1421, Val Loss = 1.0571
+           Token Accuracy = 51.23%, Sequence Accuracy = 0.55%
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 1.1116, Val Loss = 1.0147
+           Token Accuracy = 53.50%, Sequence Accuracy = 0.35%
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 1.0787, Val Loss = 0.9676
+           Token Accuracy = 56.08%, Sequence Accuracy = 1.05%
+Epoch 16: Teacher Forcing Ratio = 0.363
+Epoch 16: Train Loss = 1.0498, Val Loss = 0.9866
+           Token Accuracy = 55.36%, Sequence Accuracy = 0.79%
+Epoch 17: Teacher Forcing Ratio = 0.356
+Epoch 17: Train Loss = 1.0282, Val Loss = 0.9505
+           Token Accuracy = 58.07%, Sequence Accuracy = 1.42%
+Epoch 18: Teacher Forcing Ratio = 0.349
+Epoch 18: Train Loss = 1.0033, Val Loss = 0.9077
+           Token Accuracy = 60.27%, Sequence Accuracy = 2.36%
+Epoch 19: Teacher Forcing Ratio = 0.342
+Epoch 19: Train Loss = 0.9810, Val Loss = 0.8355
+           Token Accuracy = 62.97%, Sequence Accuracy = 3.15%
+Epoch 20: Teacher Forcing Ratio = 0.335
+Epoch 20: Train Loss = 0.9596, Val Loss = 0.8345
+           Token Accuracy = 62.40%, Sequence Accuracy = 2.48%
+Epoch 21: Teacher Forcing Ratio = 0.329
+Epoch 21: Train Loss = 0.9368, Val Loss = 0.8285
+           Token Accuracy = 62.61%, Sequence Accuracy = 2.86%
+Epoch 22: Teacher Forcing Ratio = 0.322
+Epoch 22: Train Loss = 0.9132, Val Loss = 1.5283
+           Token Accuracy = 51.30%, Sequence Accuracy = 1.62%
+Epoch 23: Teacher Forcing Ratio = 0.316
+Epoch 23: Train Loss = 0.8950, Val Loss = 0.8018
+           Token Accuracy = 63.50%, Sequence Accuracy = 3.06%
+Epoch 24: Teacher Forcing Ratio = 0.309
+Epoch 24: Train Loss = 0.8795, Val Loss = 0.8320
+           Token Accuracy = 63.55%, Sequence Accuracy = 2.70%
+Epoch 25: Teacher Forcing Ratio = 0.303
+Epoch 25: Train Loss = 0.8635, Val Loss = 0.7467
+           Token Accuracy = 66.31%, Sequence Accuracy = 5.91%
+Epoch 26: Teacher Forcing Ratio = 0.297
+Epoch 26: Train Loss = 0.8475, Val Loss = 0.7155
+           Token Accuracy = 69.04%, Sequence Accuracy = 7.47%
+Epoch 27: Teacher Forcing Ratio = 0.291
+Epoch 27: Train Loss = 0.8349, Val Loss = 0.7114
+           Token Accuracy = 69.17%, Sequence Accuracy = 7.63%
+Epoch 28: Teacher Forcing Ratio = 0.286
+Epoch 28: Train Loss = 0.8222, Val Loss = 0.7415
+           Token Accuracy = 67.37%, Sequence Accuracy = 7.76%
+Epoch 29: Teacher Forcing Ratio = 0.280
+Epoch 29: Train Loss = 0.7962, Val Loss = 0.6995
+           Token Accuracy = 69.12%, Sequence Accuracy = 8.49%
+Epoch 30: Teacher Forcing Ratio = 0.274
+Epoch 30: Train Loss = 0.7692, Val Loss = 0.6452
+           Token Accuracy = 72.31%, Sequence Accuracy = 13.22%
+[CNN_Transformer + GRU] Token Acc: 72.51%, Seq Acc: 13.51%
+
+=== Decoder variant: LSTM ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 1.9380, Val Loss = 1.8845
+           Token Accuracy = 14.70%, Sequence Accuracy = 0.00%
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 1.8901, Val Loss = 1.8805
+           Token Accuracy = 15.09%, Sequence Accuracy = 0.00%
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 1.8790, Val Loss = 1.8622
+           Token Accuracy = 17.24%, Sequence Accuracy = 0.00%
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 1.8587, Val Loss = 1.8475
+           Token Accuracy = 18.44%, Sequence Accuracy = 0.00%
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 1.8413, Val Loss = 1.8295
+           Token Accuracy = 19.30%, Sequence Accuracy = 0.00%
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 1.8199, Val Loss = 1.7961
+           Token Accuracy = 21.00%, Sequence Accuracy = 0.00%
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 1.7833, Val Loss = 1.7523
+           Token Accuracy = 23.37%, Sequence Accuracy = 0.00%
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 1.7297, Val Loss = 1.6916
+           Token Accuracy = 25.90%, Sequence Accuracy = 0.00%
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 1.6742, Val Loss = 1.6313
+           Token Accuracy = 27.93%, Sequence Accuracy = 0.00%
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 1.6323, Val Loss = 1.5910
+           Token Accuracy = 28.74%, Sequence Accuracy = 0.00%
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 1.5980, Val Loss = 1.5809
+           Token Accuracy = 28.72%, Sequence Accuracy = 0.00%
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 1.5409, Val Loss = 1.4655
+           Token Accuracy = 32.99%, Sequence Accuracy = 0.00%
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 1.4935, Val Loss = 1.4444
+           Token Accuracy = 33.03%, Sequence Accuracy = 0.00%
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 1.4579, Val Loss = 1.3683
+           Token Accuracy = 34.93%, Sequence Accuracy = 0.00%
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 1.4245, Val Loss = 1.3026
+           Token Accuracy = 38.00%, Sequence Accuracy = 0.01%
+Epoch 16: Teacher Forcing Ratio = 0.363
+Epoch 16: Train Loss = 1.3861, Val Loss = 1.2880
+           Token Accuracy = 38.73%, Sequence Accuracy = 0.02%
+Epoch 17: Teacher Forcing Ratio = 0.356
+Epoch 17: Train Loss = 1.3665, Val Loss = 1.3250
+           Token Accuracy = 35.89%, Sequence Accuracy = 0.00%
+Epoch 18: Teacher Forcing Ratio = 0.349
+Epoch 18: Train Loss = 1.3519, Val Loss = 1.2806
+           Token Accuracy = 38.35%, Sequence Accuracy = 0.00%
+Epoch 19: Teacher Forcing Ratio = 0.342
+Epoch 19: Train Loss = 1.3404, Val Loss = 1.2902
+           Token Accuracy = 36.91%, Sequence Accuracy = 0.02%
+Epoch 20: Teacher Forcing Ratio = 0.335
+Epoch 20: Train Loss = 1.3146, Val Loss = 1.1982
+           Token Accuracy = 42.06%, Sequence Accuracy = 0.02%
+Epoch 21: Teacher Forcing Ratio = 0.329
+Epoch 21: Train Loss = 1.2931, Val Loss = 1.1904
+           Token Accuracy = 40.71%, Sequence Accuracy = 0.03%
+Epoch 22: Teacher Forcing Ratio = 0.322
+Epoch 22: Train Loss = 1.2757, Val Loss = 1.1831
+           Token Accuracy = 41.92%, Sequence Accuracy = 0.03%
+Epoch 23: Teacher Forcing Ratio = 0.316
+Epoch 23: Train Loss = 1.2453, Val Loss = 1.2174
+           Token Accuracy = 40.81%, Sequence Accuracy = 0.02%
+Epoch 24: Teacher Forcing Ratio = 0.309
+Epoch 24: Train Loss = 1.2188, Val Loss = 1.1247
+           Token Accuracy = 46.29%, Sequence Accuracy = 0.14%
+Epoch 25: Teacher Forcing Ratio = 0.303
+Epoch 25: Train Loss = 1.1889, Val Loss = 1.1207
+           Token Accuracy = 46.74%, Sequence Accuracy = 0.12%
+Epoch 26: Teacher Forcing Ratio = 0.297
+Epoch 26: Train Loss = 1.1704, Val Loss = 1.0679
+           Token Accuracy = 49.37%, Sequence Accuracy = 0.13%
+Epoch 27: Teacher Forcing Ratio = 0.291
+Epoch 27: Train Loss = 1.1516, Val Loss = 1.0597
+           Token Accuracy = 49.66%, Sequence Accuracy = 0.18%
+Epoch 28: Teacher Forcing Ratio = 0.286
+Epoch 28: Train Loss = 1.1366, Val Loss = 1.0603
+           Token Accuracy = 49.85%, Sequence Accuracy = 0.10%
+Epoch 29: Teacher Forcing Ratio = 0.280
+Epoch 29: Train Loss = 1.1270, Val Loss = 1.1269
+           Token Accuracy = 46.31%, Sequence Accuracy = 0.22%
+Epoch 30: Teacher Forcing Ratio = 0.274
+Epoch 30: Train Loss = 1.1162, Val Loss = 1.1826
+           Token Accuracy = 43.85%, Sequence Accuracy = 0.02%
+[CNN_Transformer + LSTM] Token Acc: 43.65%, Seq Acc: 0.04%
+
+=== Decoder variant: RNN ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 1.9694, Val Loss = 1.8859
+           Token Accuracy = 15.03%, Sequence Accuracy = 0.00%
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 1.8755, Val Loss = 1.8502
+           Token Accuracy = 16.23%, Sequence Accuracy = 0.00%
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 1.8102, Val Loss = 1.7651
+           Token Accuracy = 22.09%, Sequence Accuracy = 0.00%
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 1.7517, Val Loss = 1.7288
+           Token Accuracy = 23.40%, Sequence Accuracy = 0.00%
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 1.7190, Val Loss = 1.7167
+           Token Accuracy = 24.85%, Sequence Accuracy = 0.00%
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 1.6863, Val Loss = 1.6683
+           Token Accuracy = 27.05%, Sequence Accuracy = 0.00%
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 1.6250, Val Loss = 1.5956
+           Token Accuracy = 29.87%, Sequence Accuracy = 0.00%
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 1.5769, Val Loss = 1.5650
+           Token Accuracy = 30.94%, Sequence Accuracy = 0.00%
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 1.5472, Val Loss = 1.5295
+           Token Accuracy = 32.26%, Sequence Accuracy = 0.00%
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 1.5212, Val Loss = 1.5099
+           Token Accuracy = 33.11%, Sequence Accuracy = 0.00%
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 1.4976, Val Loss = 1.4834
+           Token Accuracy = 34.00%, Sequence Accuracy = 0.00%
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 1.4618, Val Loss = 1.4453
+           Token Accuracy = 35.80%, Sequence Accuracy = 0.00%
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 1.4103, Val Loss = 1.3742
+           Token Accuracy = 38.50%, Sequence Accuracy = 0.00%
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 1.3456, Val Loss = 1.3030
+           Token Accuracy = 41.25%, Sequence Accuracy = 0.00%
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 1.2799, Val Loss = 1.2369
+           Token Accuracy = 43.18%, Sequence Accuracy = 0.01%
+Epoch 16: Teacher Forcing Ratio = 0.363
+Epoch 16: Train Loss = 1.2177, Val Loss = 1.1645
+           Token Accuracy = 46.25%, Sequence Accuracy = 0.03%
+Epoch 17: Teacher Forcing Ratio = 0.356
+Epoch 17: Train Loss = 1.1652, Val Loss = 1.1753
+           Token Accuracy = 46.39%, Sequence Accuracy = 0.03%
+Epoch 18: Teacher Forcing Ratio = 0.349
+Epoch 18: Train Loss = 1.1287, Val Loss = 1.0714
+           Token Accuracy = 50.57%, Sequence Accuracy = 0.07%
+Epoch 19: Teacher Forcing Ratio = 0.342
+Epoch 19: Train Loss = 1.0980, Val Loss = 1.1451
+           Token Accuracy = 47.72%, Sequence Accuracy = 0.02%
+Epoch 20: Teacher Forcing Ratio = 0.335
+Epoch 20: Train Loss = 1.0724, Val Loss = 1.0236
+           Token Accuracy = 52.67%, Sequence Accuracy = 0.15%
+Epoch 21: Teacher Forcing Ratio = 0.329
+Epoch 21: Train Loss = 1.0479, Val Loss = 1.0457
+           Token Accuracy = 52.01%, Sequence Accuracy = 0.19%
+Epoch 22: Teacher Forcing Ratio = 0.322
+Epoch 22: Train Loss = 1.0266, Val Loss = 1.0033
+           Token Accuracy = 54.01%, Sequence Accuracy = 0.11%
+Epoch 23: Teacher Forcing Ratio = 0.316
+Epoch 23: Train Loss = 1.0083, Val Loss = 0.9704
+           Token Accuracy = 55.29%, Sequence Accuracy = 0.25%
+Epoch 24: Teacher Forcing Ratio = 0.309
+Epoch 24: Train Loss = 0.9853, Val Loss = 0.9919
+           Token Accuracy = 54.12%, Sequence Accuracy = 0.24%
+Epoch 25: Teacher Forcing Ratio = 0.303
+Epoch 25: Train Loss = 0.9519, Val Loss = 0.8857
+           Token Accuracy = 59.00%, Sequence Accuracy = 0.83%
+Epoch 26: Teacher Forcing Ratio = 0.297
+Epoch 26: Train Loss = 0.9302, Val Loss = 0.9056
+           Token Accuracy = 58.52%, Sequence Accuracy = 0.73%
+Epoch 27: Teacher Forcing Ratio = 0.291
+Epoch 27: Train Loss = 0.9139, Val Loss = 0.9703
+           Token Accuracy = 55.55%, Sequence Accuracy = 0.30%
+Epoch 28: Teacher Forcing Ratio = 0.286
+Epoch 28: Train Loss = 0.8998, Val Loss = 0.8578
+           Token Accuracy = 60.72%, Sequence Accuracy = 1.05%
+Epoch 29: Teacher Forcing Ratio = 0.280
+Epoch 29: Train Loss = 0.8863, Val Loss = 0.9336
+           Token Accuracy = 56.70%, Sequence Accuracy = 0.46%
+Epoch 30: Teacher Forcing Ratio = 0.274
+Epoch 30: Train Loss = 0.8796, Val Loss = 0.8282
+           Token Accuracy = 61.58%, Sequence Accuracy = 1.59%
+[CNN_Transformer + RNN] Token Acc: 61.21%, Seq Acc: 1.70%
+
+=== Decoder variant: Transformer ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 2.1333, Val Loss = 2.1474
+           Token Accuracy = 13.57%, Sequence Accuracy = 0.00%
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 2.1084, Val Loss = 2.1293
+           Token Accuracy = 13.70%, Sequence Accuracy = 0.00%
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 2.0982, Val Loss = 2.1634
+           Token Accuracy = 14.56%, Sequence Accuracy = 0.00%
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 2.0761, Val Loss = 2.0900
+           Token Accuracy = 16.79%, Sequence Accuracy = 0.00%
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 2.0422, Val Loss = 2.0793
+           Token Accuracy = 19.51%, Sequence Accuracy = 0.00%
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 1.9916, Val Loss = 1.9682
+           Token Accuracy = 23.02%, Sequence Accuracy = 0.00%
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 1.9465, Val Loss = 1.9813
+           Token Accuracy = 22.66%, Sequence Accuracy = 0.00%
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 1.8833, Val Loss = 1.9363
+           Token Accuracy = 27.33%, Sequence Accuracy = 0.00%
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 1.8257, Val Loss = 1.8004
+           Token Accuracy = 26.90%, Sequence Accuracy = 0.00%
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 1.7773, Val Loss = 1.6937
+           Token Accuracy = 32.73%, Sequence Accuracy = 0.00%
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 1.7355, Val Loss = 1.6632
+           Token Accuracy = 31.81%, Sequence Accuracy = 0.00%
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 1.7089, Val Loss = 1.7415
+           Token Accuracy = 27.62%, Sequence Accuracy = 0.00%
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 1.6855, Val Loss = 1.6011
+           Token Accuracy = 36.83%, Sequence Accuracy = 0.00%
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 1.6572, Val Loss = 1.5400
+           Token Accuracy = 37.75%, Sequence Accuracy = 0.00%
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 1.6346, Val Loss = 1.5418
+           Token Accuracy = 37.36%, Sequence Accuracy = 0.00%
+Epoch 16: Teacher Forcing Ratio = 0.363
+Epoch 16: Train Loss = 1.6157, Val Loss = 1.5236
+           Token Accuracy = 38.03%, Sequence Accuracy = 0.00%
+Epoch 17: Teacher Forcing Ratio = 0.356
+Epoch 17: Train Loss = 1.5847, Val Loss = 1.3910
+           Token Accuracy = 45.27%, Sequence Accuracy = 0.00%
+Epoch 18: Teacher Forcing Ratio = 0.349
+Epoch 18: Train Loss = 1.5555, Val Loss = 1.3826
+           Token Accuracy = 43.39%, Sequence Accuracy = 0.00%
+Epoch 19: Teacher Forcing Ratio = 0.342
+Epoch 19: Train Loss = 1.5298, Val Loss = 1.4601
+           Token Accuracy = 42.08%, Sequence Accuracy = 0.00%
+Epoch 20: Teacher Forcing Ratio = 0.335
+Epoch 20: Train Loss = 1.5126, Val Loss = 1.3450
+           Token Accuracy = 46.34%, Sequence Accuracy = 0.00%
+Epoch 21: Teacher Forcing Ratio = 0.329
+Epoch 21: Train Loss = 1.4964, Val Loss = 1.3737
+           Token Accuracy = 45.32%, Sequence Accuracy = 0.00%
+Epoch 22: Teacher Forcing Ratio = 0.322
+Epoch 22: Train Loss = 1.4831, Val Loss = 1.4791
+           Token Accuracy = 33.43%, Sequence Accuracy = 0.00%
+Epoch 23: Teacher Forcing Ratio = 0.316
+Epoch 23: Train Loss = 1.4620, Val Loss = 1.2167
+           Token Accuracy = 48.86%, Sequence Accuracy = 0.01%
+Epoch 24: Teacher Forcing Ratio = 0.309
+Epoch 24: Train Loss = 1.4517, Val Loss = 1.0808
+           Token Accuracy = 56.25%, Sequence Accuracy = 0.03%
+Epoch 25: Teacher Forcing Ratio = 0.303
+Epoch 25: Train Loss = 1.4437, Val Loss = 1.0579
+           Token Accuracy = 57.31%, Sequence Accuracy = 0.01%
+Epoch 26: Teacher Forcing Ratio = 0.297
+Epoch 26: Train Loss = 1.4228, Val Loss = 0.8995
+           Token Accuracy = 65.70%, Sequence Accuracy = 0.37%
+Epoch 27: Teacher Forcing Ratio = 0.291
+Epoch 27: Train Loss = 1.3780, Val Loss = 0.9975
+           Token Accuracy = 58.21%, Sequence Accuracy = 0.21%
+Epoch 28: Teacher Forcing Ratio = 0.286
+Epoch 28: Train Loss = 1.3155, Val Loss = 0.9887
+           Token Accuracy = 53.66%, Sequence Accuracy = 0.05%
+Epoch 29: Teacher Forcing Ratio = 0.280
+Epoch 29: Train Loss = 1.2914, Val Loss = 1.8432
+           Token Accuracy = 27.68%, Sequence Accuracy = 0.00%
+Epoch 30: Teacher Forcing Ratio = 0.274
+Epoch 30: Train Loss = 1.2886, Val Loss = 0.9473
+           Token Accuracy = 58.29%, Sequence Accuracy = 0.12%
+[CNN_Transformer + Transformer] Token Acc: 57.96%, Seq Acc: 0.10%
+
+=== Decoder variant: AttentionOnly ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 2.1945, Val Loss = 2.1799
+           Token Accuracy = 14.40%, Sequence Accuracy = 0.00%
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 2.1846, Val Loss = 2.1767
+           Token Accuracy = 14.64%, Sequence Accuracy = 0.00%
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 2.1704, Val Loss = 2.1788
+           Token Accuracy = 15.56%, Sequence Accuracy = 0.00%
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 2.1571, Val Loss = 2.1762
+           Token Accuracy = 15.75%, Sequence Accuracy = 0.00%
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 2.1459, Val Loss = 2.1974
+           Token Accuracy = 16.58%, Sequence Accuracy = 0.00%
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 2.1371, Val Loss = 2.1884
+           Token Accuracy = 16.40%, Sequence Accuracy = 0.00%
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 2.1307, Val Loss = 2.2569
+           Token Accuracy = 15.38%, Sequence Accuracy = 0.00%
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 2.1268, Val Loss = 2.2666
+           Token Accuracy = 16.60%, Sequence Accuracy = 0.00%
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 2.1223, Val Loss = 2.2640
+           Token Accuracy = 16.36%, Sequence Accuracy = 0.00%
+Early stopping triggered after 9 epochs.
+[CNN_Transformer + AttentionOnly] Token Acc: 9.02%, Seq Acc: 0.00%
+
+=== Decoder variant: Hybrid ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 1.9236, Val Loss = 1.8804
+           Token Accuracy = 15.35%, Sequence Accuracy = 0.00%
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 1.8827, Val Loss = 1.8707
+           Token Accuracy = 16.28%, Sequence Accuracy = 0.00%
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 1.8396, Val Loss = 1.8681
+           Token Accuracy = 21.65%, Sequence Accuracy = 0.00%
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 1.7195, Val Loss = 1.6272
+           Token Accuracy = 27.69%, Sequence Accuracy = 0.00%
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 1.6184, Val Loss = 1.5238
+           Token Accuracy = 31.81%, Sequence Accuracy = 0.00%
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 1.5401, Val Loss = 1.4837
+           Token Accuracy = 32.45%, Sequence Accuracy = 0.01%
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 1.4610, Val Loss = 1.3666
+           Token Accuracy = 36.88%, Sequence Accuracy = 0.01%
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 1.3754, Val Loss = 1.3481
+           Token Accuracy = 37.59%, Sequence Accuracy = 0.00%
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 1.3179, Val Loss = 1.2249
+           Token Accuracy = 43.38%, Sequence Accuracy = 0.03%
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 1.2781, Val Loss = 1.2216
+           Token Accuracy = 43.76%, Sequence Accuracy = 0.07%
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 1.2476, Val Loss = 1.1831
+           Token Accuracy = 45.86%, Sequence Accuracy = 0.04%
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 1.2209, Val Loss = 1.1517
+           Token Accuracy = 46.41%, Sequence Accuracy = 0.07%
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 1.1961, Val Loss = 1.1649
+           Token Accuracy = 45.59%, Sequence Accuracy = 0.05%
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 1.1744, Val Loss = 1.0926
+           Token Accuracy = 49.28%, Sequence Accuracy = 0.07%
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 1.1470, Val Loss = 1.0619
+           Token Accuracy = 50.91%, Sequence Accuracy = 0.14%
+Epoch 16: Teacher Forcing Ratio = 0.363
+Epoch 16: Train Loss = 1.1323, Val Loss = 1.3654
+           Token Accuracy = 39.65%, Sequence Accuracy = 0.01%
+Epoch 17: Teacher Forcing Ratio = 0.356
+Epoch 17: Train Loss = 1.1145, Val Loss = 1.0346
+           Token Accuracy = 52.27%, Sequence Accuracy = 0.16%
+Epoch 18: Teacher Forcing Ratio = 0.349
+Epoch 18: Train Loss = 1.1007, Val Loss = 1.0817
+           Token Accuracy = 49.74%, Sequence Accuracy = 0.09%
+Epoch 19: Teacher Forcing Ratio = 0.342
+Epoch 19: Train Loss = 1.0845, Val Loss = 1.0434
+           Token Accuracy = 52.11%, Sequence Accuracy = 0.20%
+Epoch 20: Teacher Forcing Ratio = 0.335
+Epoch 20: Train Loss = 1.0752, Val Loss = 1.0417
+           Token Accuracy = 51.27%, Sequence Accuracy = 0.07%
+Epoch 21: Teacher Forcing Ratio = 0.329
+Epoch 21: Train Loss = 1.0649, Val Loss = 1.0786
+           Token Accuracy = 50.06%, Sequence Accuracy = 0.09%
+Epoch 22: Teacher Forcing Ratio = 0.322
+Epoch 22: Train Loss = 1.0514, Val Loss = 0.9887
+           Token Accuracy = 54.22%, Sequence Accuracy = 0.33%
+Epoch 23: Teacher Forcing Ratio = 0.316
+Epoch 23: Train Loss = 1.0451, Val Loss = 0.9488
+           Token Accuracy = 56.23%, Sequence Accuracy = 0.34%
+Epoch 24: Teacher Forcing Ratio = 0.309
+Epoch 24: Train Loss = 1.0309, Val Loss = 1.0077
+           Token Accuracy = 53.19%, Sequence Accuracy = 0.18%
+Epoch 25: Teacher Forcing Ratio = 0.303
+Epoch 25: Train Loss = 1.0236, Val Loss = 0.9822
+           Token Accuracy = 54.14%, Sequence Accuracy = 0.29%
+Epoch 26: Teacher Forcing Ratio = 0.297
+Epoch 26: Train Loss = 1.0147, Val Loss = 0.9963
+           Token Accuracy = 53.94%, Sequence Accuracy = 0.19%
+Epoch 27: Teacher Forcing Ratio = 0.291
+Epoch 27: Train Loss = 1.0087, Val Loss = 0.9982
+           Token Accuracy = 53.68%, Sequence Accuracy = 0.26%
+Epoch 28: Teacher Forcing Ratio = 0.286
+Epoch 28: Train Loss = 0.9995, Val Loss = 1.0789
+           Token Accuracy = 49.64%, Sequence Accuracy = 0.07%
+Early stopping triggered after 28 epochs.
+[CNN_Transformer + Hybrid] Token Acc: 49.78%, Seq Acc: 0.11%
+
+=== Decoder variant: Conformer ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 1.9460, Val Loss = 1.9087
+           Token Accuracy = 13.20%, Sequence Accuracy = 0.00%
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 1.9042, Val Loss = 1.8981
+           Token Accuracy = 13.70%, Sequence Accuracy = 0.00%
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 1.8966, Val Loss = 1.8921
+           Token Accuracy = 15.57%, Sequence Accuracy = 0.00%
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 1.8914, Val Loss = 1.8870
+           Token Accuracy = 14.57%, Sequence Accuracy = 0.00%
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 1.8919, Val Loss = 1.8851
+           Token Accuracy = 14.41%, Sequence Accuracy = 0.00%
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 1.8885, Val Loss = 1.8843
+           Token Accuracy = 14.66%, Sequence Accuracy = 0.00%
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 1.8871, Val Loss = 1.8866
+           Token Accuracy = 15.39%, Sequence Accuracy = 0.00%
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 1.8873, Val Loss = 1.8873
+           Token Accuracy = 15.40%, Sequence Accuracy = 0.00%
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 1.8866, Val Loss = 1.8885
+           Token Accuracy = 15.38%, Sequence Accuracy = 0.00%
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 1.8848, Val Loss = 1.8819
+           Token Accuracy = 15.34%, Sequence Accuracy = 0.00%
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 1.8849, Val Loss = 1.8870
+           Token Accuracy = 14.91%, Sequence Accuracy = 0.00%
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 1.8840, Val Loss = 1.8849
+           Token Accuracy = 15.09%, Sequence Accuracy = 0.00%
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 1.8843, Val Loss = 1.8771
+           Token Accuracy = 15.75%, Sequence Accuracy = 0.00%
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 1.8835, Val Loss = 1.8782
+           Token Accuracy = 15.76%, Sequence Accuracy = 0.00%
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 1.8827, Val Loss = 1.8799
+           Token Accuracy = 15.80%, Sequence Accuracy = 0.00%
+Epoch 16: Teacher Forcing Ratio = 0.363
+Epoch 16: Train Loss = 1.8834, Val Loss = 1.8790
+           Token Accuracy = 15.63%, Sequence Accuracy = 0.00%
+Epoch 17: Teacher Forcing Ratio = 0.356
+Epoch 17: Train Loss = 1.8835, Val Loss = 1.8777
+           Token Accuracy = 15.50%, Sequence Accuracy = 0.00%
+Epoch 18: Teacher Forcing Ratio = 0.349
+Epoch 18: Train Loss = 1.8824, Val Loss = 1.8816
+           Token Accuracy = 15.53%, Sequence Accuracy = 0.00%
+Early stopping triggered after 18 epochs.
+[CNN_Transformer + Conformer] Token Acc: 15.23%, Seq Acc: 0.00%
+
+=== Decoder variant: GRU_NoAttn ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 1.9290, Val Loss = 1.8893
+           Token Accuracy = 14.31%, Sequence Accuracy = 0.00%
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 1.8887, Val Loss = 1.8790
+           Token Accuracy = 15.47%, Sequence Accuracy = 0.00%
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 1.8854, Val Loss = 1.8788
+           Token Accuracy = 15.36%, Sequence Accuracy = 0.00%
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 1.8832, Val Loss = 1.8792
+           Token Accuracy = 15.22%, Sequence Accuracy = 0.00%
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 1.8827, Val Loss = 1.8800
+           Token Accuracy = 15.12%, Sequence Accuracy = 0.00%
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 1.8802, Val Loss = 1.8824
+           Token Accuracy = 15.41%, Sequence Accuracy = 0.00%
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 1.8802, Val Loss = 1.8754
+           Token Accuracy = 15.91%, Sequence Accuracy = 0.00%
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 1.8788, Val Loss = 1.8800
+           Token Accuracy = 15.48%, Sequence Accuracy = 0.00%
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 1.8711, Val Loss = 1.8466
+           Token Accuracy = 17.10%, Sequence Accuracy = 0.00%
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 1.8337, Val Loss = 1.8265
+           Token Accuracy = 17.69%, Sequence Accuracy = 0.00%
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 1.7989, Val Loss = 1.7614
+           Token Accuracy = 21.12%, Sequence Accuracy = 0.00%
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 1.7629, Val Loss = 1.7147
+           Token Accuracy = 22.96%, Sequence Accuracy = 0.00%
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 1.7155, Val Loss = 1.6571
+           Token Accuracy = 25.88%, Sequence Accuracy = 0.00%
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 1.6742, Val Loss = 1.6184
+           Token Accuracy = 27.26%, Sequence Accuracy = 0.00%
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 1.6416, Val Loss = 1.6434
+           Token Accuracy = 25.76%, Sequence Accuracy = 0.00%
+Epoch 16: Teacher Forcing Ratio = 0.363
+Epoch 16: Train Loss = 1.6174, Val Loss = 1.5649
+           Token Accuracy = 29.14%, Sequence Accuracy = 0.00%
+Epoch 17: Teacher Forcing Ratio = 0.356
+Epoch 17: Train Loss = 1.6005, Val Loss = 1.7271
+           Token Accuracy = 24.60%, Sequence Accuracy = 0.00%
+Epoch 18: Teacher Forcing Ratio = 0.349
+Epoch 18: Train Loss = 1.5832, Val Loss = 1.5843
+           Token Accuracy = 28.82%, Sequence Accuracy = 0.00%
+Epoch 19: Teacher Forcing Ratio = 0.342
+Epoch 19: Train Loss = 1.5700, Val Loss = 1.5231
+           Token Accuracy = 31.66%, Sequence Accuracy = 0.00%
+Epoch 20: Teacher Forcing Ratio = 0.335
+Epoch 20: Train Loss = 1.5623, Val Loss = 1.5244
+           Token Accuracy = 31.83%, Sequence Accuracy = 0.00%
+Epoch 21: Teacher Forcing Ratio = 0.329
+Epoch 21: Train Loss = 1.5547, Val Loss = 1.6877
+           Token Accuracy = 25.14%, Sequence Accuracy = 0.00%
+Epoch 22: Teacher Forcing Ratio = 0.322
+Epoch 22: Train Loss = 1.5371, Val Loss = 1.5888
+           Token Accuracy = 28.63%, Sequence Accuracy = 0.00%
+Epoch 23: Teacher Forcing Ratio = 0.316
+Epoch 23: Train Loss = 1.5284, Val Loss = 1.5149
+           Token Accuracy = 32.53%, Sequence Accuracy = 0.00%
+Epoch 24: Teacher Forcing Ratio = 0.309
+Epoch 24: Train Loss = 1.5209, Val Loss = 1.5566
+           Token Accuracy = 30.78%, Sequence Accuracy = 0.00%
+Epoch 25: Teacher Forcing Ratio = 0.303
+Epoch 25: Train Loss = 1.5126, Val Loss = 1.4424
+           Token Accuracy = 36.08%, Sequence Accuracy = 0.00%
+Epoch 26: Teacher Forcing Ratio = 0.297
+Epoch 26: Train Loss = 1.4977, Val Loss = 1.4462
+           Token Accuracy = 35.04%, Sequence Accuracy = 0.00%
+Epoch 27: Teacher Forcing Ratio = 0.291
+Epoch 27: Train Loss = 1.4828, Val Loss = 1.4590
+           Token Accuracy = 34.57%, Sequence Accuracy = 0.00%
+Epoch 28: Teacher Forcing Ratio = 0.286
+Epoch 28: Train Loss = 1.4643, Val Loss = 1.4341
+           Token Accuracy = 35.73%, Sequence Accuracy = 0.01%
+Epoch 29: Teacher Forcing Ratio = 0.280
+Epoch 29: Train Loss = 1.4518, Val Loss = 1.3705
+           Token Accuracy = 38.71%, Sequence Accuracy = 0.00%
+Epoch 30: Teacher Forcing Ratio = 0.274
+Epoch 30: Train Loss = 1.4424, Val Loss = 1.6046
+           Token Accuracy = 29.34%, Sequence Accuracy = 0.00%
+[CNN_Transformer + GRU_NoAttn] Token Acc: 28.93%, Seq Acc: 0.00%
+
+=== Decoder variant: LSTM_NoAttn ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 1.9110, Val Loss = 1.8965
+           Token Accuracy = 12.41%, Sequence Accuracy = 0.00%
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 1.8945, Val Loss = 1.8919
+           Token Accuracy = 12.46%, Sequence Accuracy = 0.00%
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 1.8938, Val Loss = 1.8919
+           Token Accuracy = 12.58%, Sequence Accuracy = 0.00%
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 1.8923, Val Loss = 1.8916
+           Token Accuracy = 12.47%, Sequence Accuracy = 0.00%
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 1.8921, Val Loss = 1.8922
+           Token Accuracy = 12.49%, Sequence Accuracy = 0.00%
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 1.8922, Val Loss = 1.8916
+           Token Accuracy = 12.48%, Sequence Accuracy = 0.00%
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 1.8921, Val Loss = 1.8914
+           Token Accuracy = 12.48%, Sequence Accuracy = 0.00%
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 1.8919, Val Loss = 1.8922
+           Token Accuracy = 12.51%, Sequence Accuracy = 0.00%
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 1.8918, Val Loss = 1.8924
+           Token Accuracy = 12.55%, Sequence Accuracy = 0.00%
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 1.8918, Val Loss = 1.8912
+           Token Accuracy = 12.42%, Sequence Accuracy = 0.00%
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 1.8917, Val Loss = 1.8913
+           Token Accuracy = 12.43%, Sequence Accuracy = 0.00%
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 1.8919, Val Loss = 1.8916
+           Token Accuracy = 12.47%, Sequence Accuracy = 0.00%
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 1.8917, Val Loss = 1.8915
+           Token Accuracy = 12.50%, Sequence Accuracy = 0.00%
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 1.8917, Val Loss = 1.8916
+           Token Accuracy = 12.62%, Sequence Accuracy = 0.00%
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 1.8917, Val Loss = 1.8915
+           Token Accuracy = 12.55%, Sequence Accuracy = 0.00%
+Early stopping triggered after 15 epochs.
+[CNN_Transformer + LSTM_NoAttn] Token Acc: 12.55%, Seq Acc: 0.00%
+
+=== Decoder variant: CTC ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 1.8929, Val Loss = 1.8733
+           Token Accuracy = 15.99%, Sequence Accuracy = 0.00%
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 1.8122, Val Loss = 1.3423
+           Token Accuracy = 40.37%, Sequence Accuracy = 0.30%
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 1.1452, Val Loss = 0.6485
+           Token Accuracy = 72.41%, Sequence Accuracy = 7.90%
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 0.7370, Val Loss = 0.4109
+           Token Accuracy = 83.54%, Sequence Accuracy = 28.51%
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 0.5355, Val Loss = 0.2170
+           Token Accuracy = 92.21%, Sequence Accuracy = 50.06%
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 0.4014, Val Loss = 0.1495
+           Token Accuracy = 94.72%, Sequence Accuracy = 61.84%
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 0.3161, Val Loss = 0.1391
+           Token Accuracy = 95.38%, Sequence Accuracy = 68.00%
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 0.2459, Val Loss = 0.1085
+           Token Accuracy = 96.42%, Sequence Accuracy = 72.55%
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 0.2089, Val Loss = 0.0675
+           Token Accuracy = 97.72%, Sequence Accuracy = 81.29%
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 0.1859, Val Loss = 0.0835
+           Token Accuracy = 97.32%, Sequence Accuracy = 81.73%
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 0.1716, Val Loss = 0.0518
+           Token Accuracy = 98.25%, Sequence Accuracy = 85.16%
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 0.1564, Val Loss = 0.0611
+           Token Accuracy = 98.11%, Sequence Accuracy = 86.12%
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 0.1447, Val Loss = 0.0589
+           Token Accuracy = 98.00%, Sequence Accuracy = 83.97%
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 0.1383, Val Loss = 0.0508
+           Token Accuracy = 98.28%, Sequence Accuracy = 85.52%
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 0.1312, Val Loss = 0.0451
+           Token Accuracy = 98.63%, Sequence Accuracy = 90.50%
+Epoch 16: Teacher Forcing Ratio = 0.363
+Epoch 16: Train Loss = 0.1244, Val Loss = 0.0369
+           Token Accuracy = 98.72%, Sequence Accuracy = 88.86%
+Epoch 17: Teacher Forcing Ratio = 0.356
+Epoch 17: Train Loss = 0.1213, Val Loss = 0.0398
+           Token Accuracy = 98.70%, Sequence Accuracy = 89.33%
+Epoch 18: Teacher Forcing Ratio = 0.349
+Epoch 18: Train Loss = 0.1163, Val Loss = 0.0428
+           Token Accuracy = 98.50%, Sequence Accuracy = 87.43%
+Epoch 19: Teacher Forcing Ratio = 0.342
+Epoch 19: Train Loss = 0.1116, Val Loss = 0.0218
+           Token Accuracy = 99.28%, Sequence Accuracy = 94.35%
+Epoch 20: Teacher Forcing Ratio = 0.335
+Epoch 20: Train Loss = 0.1111, Val Loss = 0.0228
+           Token Accuracy = 99.23%, Sequence Accuracy = 93.68%
+Epoch 21: Teacher Forcing Ratio = 0.329
+Epoch 21: Train Loss = 0.1107, Val Loss = 0.0528
+           Token Accuracy = 98.18%, Sequence Accuracy = 85.58%
+Epoch 22: Teacher Forcing Ratio = 0.322
+Epoch 22: Train Loss = 0.1040, Val Loss = 0.0217
+           Token Accuracy = 99.29%, Sequence Accuracy = 93.91%
+Epoch 23: Teacher Forcing Ratio = 0.316
+Epoch 23: Train Loss = 0.1063, Val Loss = 0.0208
+           Token Accuracy = 99.31%, Sequence Accuracy = 94.24%
+Epoch 24: Teacher Forcing Ratio = 0.309
+Epoch 24: Train Loss = 0.1035, Val Loss = 0.0302
+           Token Accuracy = 98.99%, Sequence Accuracy = 91.42%
+Epoch 25: Teacher Forcing Ratio = 0.303
+Epoch 25: Train Loss = 0.1030, Val Loss = 0.0345
+           Token Accuracy = 98.84%, Sequence Accuracy = 90.61%
+Epoch 26: Teacher Forcing Ratio = 0.297
+Epoch 26: Train Loss = 0.0976, Val Loss = 0.0253
+           Token Accuracy = 99.19%, Sequence Accuracy = 93.35%
+Epoch 27: Teacher Forcing Ratio = 0.291
+Epoch 27: Train Loss = 0.0981, Val Loss = 0.0236
+           Token Accuracy = 99.22%, Sequence Accuracy = 93.58%
+Epoch 28: Teacher Forcing Ratio = 0.286
+Epoch 28: Train Loss = 0.0977, Val Loss = 0.0531
+           Token Accuracy = 98.34%, Sequence Accuracy = 88.01%
+Early stopping triggered after 28 epochs.
+[CNN_Transformer + CTC] Token Acc: 98.45%, Seq Acc: 88.99%
+
+=== Final Results Summary ===
+
+Encoder Backbone: CNN_Transformer
+  GRU: Token Acc = 72.51%, Seq Acc = 13.51% 
+  LSTM: Token Acc = 43.65%, Seq Acc = 0.04% 
+  RNN: Token Acc = 61.21%, Seq Acc = 1.70% 
+  Transformer: Token Acc = 57.96%, Seq Acc = 0.10% 
+  AttentionOnly: Token Acc = 9.02%, Seq Acc = 0.00% 
+  Hybrid: Token Acc = 49.78%, Seq Acc = 0.11% 
+  Conformer: Token Acc = 15.23%, Seq Acc = 0.00% 
+  GRU_NoAttn: Token Acc = 28.93%, Seq Acc = 0.00% 
+  LSTM_NoAttn: Token Acc = 12.55%, Seq Acc = 0.00% 
+  CTC: Token Acc = 98.45%, Seq Acc = 88.99% 

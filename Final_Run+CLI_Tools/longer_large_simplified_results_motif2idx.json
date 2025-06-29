@@ -1,0 +1,13 @@
+{
+  "<PAD>": 0,
+  "<SOS>": 1,
+  "<EOS>": 2,
+  "ACCGGTTTAC": 3,
+  "CATCTGCCAC": 4,
+  "CCATTTGATC": 5,
+  "CGGTGTCCAT": 6,
+  "CTGCTTAGAG": 7,
+  "TAACGGTTGA": 8,
+  "TCGACTGTCA": 9,
+  "TTGGACAGAA": 10
+}

@@ -7,8 +7,7 @@ from Bio.SeqUtils import gc_fraction
 # Define biochemical constraints for motif generation.
 BIOCHEM_CONSTRAINTS = {
     'gc_range': (40, 60),           # Acceptable GC percentage range (in %)
-    'max_homopolymer': 4,           # Maximum allowed consecutive identical nucleotides
-    'forbidden_sequences': ['GAATTC', 'GGATCC', 'AAGCTT']  # Sequences that must not be present
+    'max_homopolymer': 4           # Maximum allowed consecutive identical nucleotides
 }
 
 # Generate a biochemically valid DNA motif of given length.
@@ -18,11 +17,10 @@ def generate_valid_motif(length: int, existing: set) -> str:
         # Randomly generate a DNA sequence of the specified length.
         motif = ''.join(random.choices('ACGT', k=length))
         # Check that the motif is not already generated, has valid GC content,
-        # does not contain a homopolymer longer than allowed, and does not include any forbidden sequences.
+        # does not contain a homopolymer longer than allowed.
         if (motif not in existing and
             BIOCHEM_CONSTRAINTS['gc_range'][0] <= gc_fraction(motif) * 100 <= BIOCHEM_CONSTRAINTS['gc_range'][1] and
-            not any(h * BIOCHEM_CONSTRAINTS['max_homopolymer'] in motif for h in 'ACGT') and
-            not any(fs in motif for fs in BIOCHEM_CONSTRAINTS['forbidden_sequences'])):
+            not any(h * BIOCHEM_CONSTRAINTS['max_homopolymer'] in motif for h in 'ACGT')):
             return motif
 
 # Generate 8 payload motifs and store them in a list.

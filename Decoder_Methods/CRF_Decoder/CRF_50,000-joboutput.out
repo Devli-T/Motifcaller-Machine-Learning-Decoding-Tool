@@ -1,0 +1,114 @@
+[INFO] Using device: NVIDIA A10
+
+=== Running experiment with encoder variant: CNN_Transformer ===
+
+=== Decoder variant: CRF ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 336.9694, Val Loss = 331.0374
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 332.0745, Val Loss = 330.3600
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 331.1406, Val Loss = 330.1844
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 314.5317, Val Loss = 283.8414
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 286.3782, Val Loss = 243.5835
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 209.0278, Val Loss = 130.9933
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 159.0532, Val Loss = 110.7137
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 140.4132, Val Loss = 89.1836
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 128.4796, Val Loss = 86.0048
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 116.4364, Val Loss = 69.8430
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 106.7807, Val Loss = 61.9844
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 99.1149, Val Loss = 53.0716
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 95.5815, Val Loss = 44.9093
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 92.2629, Val Loss = 63.0502
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 88.9553, Val Loss = 44.4818
+Epoch 16: Teacher Forcing Ratio = 0.363
+Epoch 16: Train Loss = 86.5503, Val Loss = 62.7382
+Epoch 17: Teacher Forcing Ratio = 0.356
+Epoch 17: Train Loss = 84.4857, Val Loss = 45.3146
+Epoch 18: Teacher Forcing Ratio = 0.349
+Epoch 18: Train Loss = 81.6541, Val Loss = 37.7891
+Epoch 19: Teacher Forcing Ratio = 0.342
+Epoch 19: Train Loss = 79.0891, Val Loss = 52.5615
+Epoch 20: Teacher Forcing Ratio = 0.335
+Epoch 20: Train Loss = 77.0434, Val Loss = 39.9502
+Epoch 21: Teacher Forcing Ratio = 0.329
+Epoch 21: Train Loss = 74.0741, Val Loss = 35.8590
+Epoch 22: Teacher Forcing Ratio = 0.322
+Epoch 22: Train Loss = 72.1369, Val Loss = 37.1853
+Epoch 23: Teacher Forcing Ratio = 0.316
+Epoch 23: Train Loss = 71.1773, Val Loss = 38.5022
+Epoch 24: Teacher Forcing Ratio = 0.309
+Epoch 24: Train Loss = 70.4845, Val Loss = 47.2420
+Epoch 25: Teacher Forcing Ratio = 0.303
+Epoch 25: Train Loss = 68.9665, Val Loss = 34.8022
+Epoch 26: Teacher Forcing Ratio = 0.297
+Epoch 26: Train Loss = 67.8475, Val Loss = 43.8471
+Epoch 27: Teacher Forcing Ratio = 0.291
+Epoch 27: Train Loss = 67.4027, Val Loss = 44.9743
+Epoch 28: Teacher Forcing Ratio = 0.286
+Epoch 28: Train Loss = 65.7819, Val Loss = 31.6558
+Epoch 29: Teacher Forcing Ratio = 0.280
+Epoch 29: Train Loss = 65.1352, Val Loss = 33.0207
+Epoch 30: Teacher Forcing Ratio = 0.274
+Epoch 30: Train Loss = 64.2963, Val Loss = 36.4341
+[CNN_Transformer + CRF] Token Acc: 92.12%, Seq Acc: 49.48%
+
+=== Running experiment with encoder variant: CNN_BiGRU ===
+
+=== Decoder variant: CRF ===
+[DEBUG] Loaded 50000 entries from squigulator/longer_large_simplified_results.csv.
+[DEBUG] Vocabulary size (including special tokens): 11
+Epoch 1: Teacher Forcing Ratio = 0.490
+Epoch 1: Train Loss = 323.5113, Val Loss = 290.8330
+Epoch 2: Teacher Forcing Ratio = 0.480
+Epoch 2: Train Loss = 203.5736, Val Loss = 122.9456
+Epoch 3: Teacher Forcing Ratio = 0.471
+Epoch 3: Train Loss = 94.2508, Val Loss = 58.2164
+Epoch 4: Teacher Forcing Ratio = 0.462
+Epoch 4: Train Loss = 43.6778, Val Loss = 25.7115
+Epoch 5: Teacher Forcing Ratio = 0.452
+Epoch 5: Train Loss = 23.0872, Val Loss = 22.3283
+Epoch 6: Teacher Forcing Ratio = 0.443
+Epoch 6: Train Loss = 13.6632, Val Loss = 12.0907
+Epoch 7: Teacher Forcing Ratio = 0.435
+Epoch 7: Train Loss = 9.6941, Val Loss = 7.7839
+Epoch 8: Teacher Forcing Ratio = 0.426
+Epoch 8: Train Loss = 7.2694, Val Loss = 10.1919
+Epoch 9: Teacher Forcing Ratio = 0.418
+Epoch 9: Train Loss = 5.7100, Val Loss = 11.8006
+Epoch 10: Teacher Forcing Ratio = 0.409
+Epoch 10: Train Loss = 5.1048, Val Loss = 2.1565
+Epoch 11: Teacher Forcing Ratio = 0.401
+Epoch 11: Train Loss = 4.5821, Val Loss = 990.5124
+Epoch 12: Teacher Forcing Ratio = 0.393
+Epoch 12: Train Loss = 4.3569, Val Loss = 31.4013
+Epoch 13: Teacher Forcing Ratio = 0.386
+Epoch 13: Train Loss = 3.7352, Val Loss = 21.2679
+Epoch 14: Teacher Forcing Ratio = 0.378
+Epoch 14: Train Loss = 4.5388, Val Loss = 7.0004
+Epoch 15: Teacher Forcing Ratio = 0.370
+Epoch 15: Train Loss = 4.2948, Val Loss = 2.6313
+Early stopping after 15 epochs.
+[CNN_BiGRU + CRF] Token Acc: 99.74%, Seq Acc: 97.50%
+
+=== Final Results Summary ===
+
+Encoder Backbone: CNN_Transformer
+  CRF: Token Acc = 92.12%, Seq Acc = 49.48% 
+
+Encoder Backbone: CNN_BiGRU
+  CRF: Token Acc = 99.74%, Seq Acc = 97.50% 

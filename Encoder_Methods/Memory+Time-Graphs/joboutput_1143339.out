@@ -1,0 +1,28 @@
+[INFO] Using device: cuda
+
+=== Running experiment with encoder variant: CNN_Transformer ===
+[CNN_Transformer] Inference Time: 9.96 ms per forward pass
+[CNN_Transformer] Peak GPU Memory Usage: 162.43 MB
+
+=== Running experiment with encoder variant: CNN_BiLSTM ===
+[CNN_BiLSTM] Inference Time: 9.02 ms per forward pass
+[CNN_BiLSTM] Peak GPU Memory Usage: 189.12 MB
+
+=== Running experiment with encoder variant: CNN_BiGRU ===
+[CNN_BiGRU] Inference Time: 6.38 ms per forward pass
+[CNN_BiGRU] Peak GPU Memory Usage: 166.64 MB
+
+=== Running experiment with encoder variant: BiLSTM ===
+[BiLSTM] Inference Time: 28.54 ms per forward pass
+[BiLSTM] Peak GPU Memory Usage: 512.29 MB
+
+=== Running experiment with encoder variant: BiGRU ===
+[BiGRU] Inference Time: 17.64 ms per forward pass
+[BiGRU] Peak GPU Memory Usage: 423.34 MB
+
+=== Inference Metrics Summary ===
+CNN_Transformer: Inference Time = 9.96 ms, Peak Memory = 162.43 MB
+CNN_BiLSTM: Inference Time = 9.02 ms, Peak Memory = 189.12 MB
+CNN_BiGRU: Inference Time = 6.38 ms, Peak Memory = 166.64 MB
+BiLSTM: Inference Time = 28.54 ms, Peak Memory = 512.29 MB
+BiGRU: Inference Time = 17.64 ms, Peak Memory = 423.34 MB
